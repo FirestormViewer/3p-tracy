@@ -17,6 +17,8 @@ mkdir -p "${stage}/include/tracy"
 cp -R tracy/common "${stage}/include/tracy"
 cp -R tracy/client "${stage}/include/tracy"
 cp -R tracy/libbacktrace "${stage}/include/tracy"
+cp tracy/Tracy.hpp "${stage}/include/tracy"
+cp tracy/TracyC.h "${stage}/include/tracy"
 
 mkdir -p "${stage}/LICENSES"
 cp tracy/LICENSE "${stage}/LICENSES/Tracy.txt"
